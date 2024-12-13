@@ -1,0 +1,68 @@
+Tool Type,Tool,Use Cases
+Infrastructure as Code (IaC),Terraform,Provisioning and managing cloud infrastructure using declarative configuration files.
+Orchestration,Kubernetes,Orchestrating; scaling; and managing containerized applications across clusters.
+Containerization,Docker,Containerizing applications for consistent environments across development and production.
+Continuous Integration/Continuous Deployment (CI/CD),GitHub Actions,Automating workflows such as building; testing; and deploying code upon specific GitHub events. Deployment Rollbacks
+Configuration Management,Ansible,Automating system configurations; deploying applications; and managing infrastructure.
+Monitoring and Logging,Datadog (Log Aggregation),Monitoring system performance; infrastructure metrics; and application logs; setting up alerts.
+Security and Compliance,Snyk,Scanning dependencies and code for vulnerabilities; ensuring security compliance.
+Messaging App,Microsoft Teams,Facilitating team communication and collaboration through chat and video.
+ChatOps,Microsoft Teams bots,Integrates communication tools with DevOps workflows to facilitate collaboration and automation directly from chat platforms.
+Ticket App,Jira,Tracking issues; project management; and sprint planning. Error tracking.
+Documentation Tool,Confluence,Creating and managing project documentation and knowledge bases.
+Artifact Repository,Azure Artifacts,Storing and managing build artifacts; libraries; and dependencies for deployment.
+Frontend Testing Tools,Selenium,Automated testing to ensure UI components function correctly.
+Backend Testing Tools,Postman,Validating API endpoints and server-side logic.
+Performance Testing Tools,JMeter,Assessing application performance under load.
+Unit Testing Tools,Pytest,Testing individual components or functions for correctness.
+Integration Tests,Azure Test SDK,Testing interactions between components.
+Regression Tests,Various Tools,Ensuring previous functionality is not broken.
+Cost Management and Alerts,Azure Cost Management,Monitoring and optimizing cloud expenditure; setting up cost-related alerts and budgets.
+Networking DNS,Azure DNS,Managing DNS records and domains.
+Private Networks external,Azure ExpressRoute,Establishing dedicated private network connections from exernal to Azure.
+Load Balancing,Azure Load Balancer,Operating at Layer 4 (TCP; UDP) of the OSI model.
+Application Gateway,Azure Application Gateway,Layer 7 (HTTP; HTTPS; WebSocket) load balancing.
+API Gateways,Azure API Management,Acts as a facade for backend services and manages API endpoints. API Rate Limiting
+Database Management/Migration,Flyway,Version control for database schema changes and migrations.
+Backup and Recovery,Azure Backup,Implementing data backup and recovery strategies to ensure data integrity and availability. Simulated Outages
+Container Registries,Azure Container Registry (ACR),Storing and managing container images for deployment.
+Secret Management,Azure Key Vault,Managing sensitive information like API keys; passwords; and certificates securely.
+Incident Management,PagerDuty,Handling and responding to operational incidents and outages; coordinating response efforts.
+Code Documentation Automation,Heredoc,Creating and maintaining comprehensive documentation for codebases and projects.
+Branching Style,Rebase,Defining version control branching strategies to manage feature development and releases.
+Versioning Style,Semantic Versioning,Using a standardized versioning scheme to reflect changes and ensure compatibility.
+API Versioning,Swagger (OpenAPI),Managing different versions of APIs to maintain backward compatibility and manage updates.
+Environment Spin-up for Tests,Kubernetes,Creating temporary environments (dev; stage; prod) for system and integration tests.
+Environments,dev/stage/prod/test,Maintaining separate environments for development; staging; and production to ensure stability.
+Code Review Rules,GitHub,Ensuring code quality and adherence to standards through peer reviews.
+Repository Rules Linting Pass,Pylint,Automatically checking code for stylistic and programming errors.
+Repository Rules Tests Pass,Smoke/unit/integration,Ensuring that unit tests pass before code is merged.
+Repository Rules Security Pass,Snyk,Identifying and addressing security vulnerabilities before deployment.
+Code Review Automation,DeepCode/Codacy,Utilizing AI to automate and enhance the code review process.
+Code Analysis,CodeClimate,Analyzing code for maintainability; complexity; and potential issues to enforce standards.
+Deployment Strategies Blue-Green Deployments,Azure App Service Deployment Slots,Switching traffic between two identical environments to minimize downtime.
+Deployment Strategies Canary Releases,Spinnaker/Istio,Gradually rolling out updates to a subset of users to monitor and mitigate risks.
+Deployment Strategies A/B Testing on Production,LaunchDarkly/Optimizely,Comparing different versions in the live environment to evaluate performance and user response.
+Chaos Engineering,Chaos Monkey/Gremlin,Intentionally introducing failures to test system resilience and identify weaknesses.
+GitOps,Argo CD/Flux,Managing infrastructure and deployments using Git as the single source of truth with declarative processes.
+Integrated Development Environments (IDEs),VSCode,Shared configurations for uniformity and security.
+Business Intelligence and Analytics,Tableau,Creating data visualizations and dashboards to analyze business metrics; enabling data-driven decision-making.
+Feature Flagging,LaunchDarkly,Managing feature rollouts and toggling features on/off without deploying new code.
+API Documentation Automation,Swagger UI,Automatically generating interactive API documentation from OpenAPI specifications.
+Task Scheduling,Azure Automation,Automating repetitive tasks and scheduling jobs at specified intervals.
+Version Control Systems,git,Tracking changes in source code; enabling collaboration; branching; and merging.
+Search and Indexing,Elasticsearch,Providing distributed RESTful search and analytics for all types of data including logs; metrics; and application data.
+CDN,Cloudflare,Delivering content quickly and securely to users worldwide with caching; DDoS protection; and performance optimization.
+Service Discovery,Azure Service Fabric,Enabling service discovery; configuration; and segmentation for distributed applications and microservices architectures.
+Cache,Redis,Implementing in-memory data structures for caching; session management; real-time analytics; and message brokering.
+Service Mesh,Istio,Managing microservices communication; security; and monitoring within Kubernetes clusters.
+Application Performance Monitoring (APM),Azure Monitor,Providing end-to-end application monitoring; user experience insights; and infrastructure monitoring.
+Task Automation between Apps,Zapier,Automating workflows by connecting different apps and services.
+License Management,FOSSA,Managing open-source licenses and ensuring compliance with licensing requirements.
+Release Management,Octopus Deploy,Manages the process of deploying new software versions ensuring that releases are delivered smoothly and reliably.
+Change Management,Jira Service Management,controls changes to the infrastructure and applications to minimize risks and ensure stability
+Localization and Internationalization,i18next,Ensures that applications support multiple languages and regional settings.
+Data Encryption in Transit and at Rest,TLS/SSL,Ensures that data is securely encrypted both while being transmitted and when stored.
+Proxy Management,NGINX,Manages proxy servers to handle client requests enhance security and optimize performance.
+Compliance as Code,Open Policy Agent (OPA),Automates compliance checks and ensures that infrastructure adheres to regulatory standards through code.
+SLA/RPO/RTO,documentation?,Service Level Agreements (SLA) Recovery Point Objectives (RPO) and Recovery Time Objectives (RTO)
