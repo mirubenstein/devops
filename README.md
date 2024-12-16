@@ -12,9 +12,7 @@ Public and Private Cloud Platforms.
 
 Server Operating Systems.
 
-- **Linux**
-- **Windows Server**
-- **Ubuntu**
+- **Azure Virtual Machines**
 
 ## Distributed Filesystems
 
@@ -30,55 +28,51 @@ Provisioning cloud infrastructure declaratively.
 
 - **Terraform**
 - **Pulumi**
-- **CloudFormation**
+- **Azure Resource Manager**
+- **Microsoft Bicep**
 
 ## Orchestration
 
 Managing containerized applications across clusters.
 
 - **Kubernetes**
-- **Docker Swarm**
-- **Apache Mesos**
+- **Azure Kubernetes Service**
 
 ## Containerization
 
 Ensuring consistent environments for applications.
 
 - **Docker**
-- **Podman**
-- **CRI-O**
-- ** [LXC](https://linuxcontainers.org/) ** 
+- **Azure Container Instances**
+- ** [LXC](https://linuxcontainers.org/) **
 
 ## CI/CD
 
 Automating build, test, and deploy workflows.
 
 - **GitHub Actions**
-- **Jenkins**
-- **GitLab CI**
+- **Azure Pipelines**
 
 ## Configuration Management
 
 Automating system configurations and deployments.
 
 - **Ansible**
-- **Puppet**
-- **Chef**
+- **Azure Automation**
 
 ## Monitoring and Logging
 
 Monitoring performance and setting up alerts.
 
 - **Datadog**
-- **Prometheus**
-- **Grafana**
+- **Azure Monitor**
 
 ## Security and Compliance
 
 Scanning for vulnerabilities and ensuring compliance.
 
 - **Snyk**
-- **Aqua Security**
+- **Microsoft Defender Vulnerability Management**
 - **Qualys**
 
 ## Messaging
@@ -104,6 +98,7 @@ Project management and issue tracking.
 - **Jira**
 - **Trello**
 - **Asana**
+- **Microsoft Project**
 
 ## Documentation
 
@@ -112,6 +107,7 @@ Managing project documentation and knowledge bases.
 - **Confluence**
 - **Notion**
 - **MkDocs**
+- **Microsoft Sharepoint**
 
 ## Artifact Repository
 
@@ -128,6 +124,7 @@ Automated UI testing.
 - **Selenium**
 - **Cypress**
 - **Puppeteer**
+- **MS Playwright**
 
 ## Backend Testing
 
@@ -144,6 +141,7 @@ Assessing application performance under load.
 - **JMeter**
 - **Locust**
 - **Gatling**
+- **k6**
 
 ## Unit Testing
 
@@ -152,6 +150,7 @@ Testing individual components for correctness.
 - **Pytest**
 - **JUnit**
 - **Mocha**
+- **xUnit**
 
 ## Integration Testing
 
@@ -168,6 +167,14 @@ Ensuring existing functionality remains intact.
 - **Selenium**
 - **TestCafe**
 - **Ranorex**
+
+## UI Component Testing
+
+Developing and testing UI components in isolation.
+
+- **Storybook**
+- **Bit**
+- **Styleguidist**
 
 ## Cost Management
 
@@ -264,8 +271,9 @@ Handling operational incidents and outages.
 Maintaining codebase documentation.
 
 - **Heredoc**
-- **Swagger**
+- **OpenAPI**
 - **Doxygen**
+- **asyncdocs**
 
 ## Version Control Branching
 
@@ -386,7 +394,6 @@ Comparing versions in production.
 
 - **LaunchDarkly**
 - **Optimizely**
-- **Google Optimize**
 
 ## Chaos Engineering
 
@@ -532,6 +539,7 @@ Controlling infrastructure changes to minimize risks.
 - **Jira Service Management**
 - **ServiceNow**
 - **ChangeGear**
+- **Microsoft Project**
 
 ## Localization
 
