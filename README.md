@@ -14,6 +14,12 @@ Server Operating Systems.
 
 - **Azure Virtual Machines**
 
+## Server Access
+
+Secure remote access solutions for network access IE DB migrations?
+
+- **Azure Bastion**
+
 ## Distributed Filesystems
 
 Networked Distributed Filesystems.
@@ -74,6 +80,26 @@ Scanning for vulnerabilities and ensuring compliance.
 - **Snyk**
 - **Microsoft Defender Vulnerability Management**
 - **Qualys**
+
+## Identity and Access Management (IAM)
+
+Managing user authentication, authorization, and identity.
+
+- **AWS Cognito**
+- **Azure AD B2C**
+- **Auth0**
+- **Okta**
+- **Keycloak**
+- **OneLogin**
+
+## Multi-Factor Authentication (MFA)
+
+Securing access with multiple authentication factors.
+
+- **Azure AD MFA**
+- **Duo Security**
+- **Google Authenticator**
+- **Okta Verify**
 
 ## Messaging
 
