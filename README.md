@@ -47,6 +47,7 @@ Ensuring consistent environments for applications.
 - **Docker**
 - **Podman**
 - **CRI-O**
+- ** [LXC](https://linuxcontainers.org/) ** 
 
 ## CI/CD
 
@@ -199,6 +200,7 @@ Layer 4 load balancing (TCP/UDP).
 - **Azure Load Balancer**
 - **HAProxy**
 - **Nginx**
+- **Traefik**
 
 ## Application Gateway
 
@@ -239,6 +241,7 @@ Managing container images.
 - **Azure Container Registry**
 - **Docker Hub**
 - **Google Container Registry**
+- **[Github Packages](https://docs.github.com/en/packages)**
 
 ## Secret Management
 
@@ -311,6 +314,7 @@ Handling multiple runtime versions.
 - **asdf**
 - **nvm**
 - **pyenv**
+- **[uv](https://github.com/astral-sh/uv)**
 
 ## Code Review
 
@@ -477,6 +481,7 @@ Managing service discovery and configuration.
 In-memory data caching and session management.
 
 - **Redis**
+- **[ValKey](https://valkey.io/)**
 - **Memcached**
 - **Varnish Cache**
 
