@@ -29,6 +29,7 @@ Provisioning cloud infrastructure declaratively.
 - **Azure Resource Manager**
 - **Microsoft Bicep**
 - **AWS CDK**
+#### Shared Terraform Library
 
 ### Private Networks
 Establishing private network connections to Azure.
@@ -360,6 +361,7 @@ Integrated Development Environments.
 - **Eclipse**
 - **IntelliJ IDEA**
 - **JetBrains WebStorm**
+#### IDE Shared Config
 
 ### Remote Development Environments
 Cloud-based development environments.
@@ -426,6 +428,7 @@ Code review platforms and tools.
 - **Gerrit**
 - **GitLab Merge Requests**
 - **Bitbucket**
+#### Git Review Template
 
 ### Linting
 Code style and error checking.
@@ -466,6 +469,18 @@ Managing software licenses.
 - **FOSSA**
 - **Sourcetrail**
 
+### Shared Libraries
+- **Core libraries and utilities**
+- **Design systems and UI components**
+- **Configuration and standards**
+- **Data models and schemas**
+- **API definitions and documentation**
+- **Build and deployment scripts**
+- **Security and authentication modules**
+- **Logging and monitoring tools**
+- **Test frameworks and utilities**
+- **Documentation and knowledge base**
+
 ## Version Control & Collaboration
 
 ### Version Control
@@ -476,6 +491,7 @@ Source code version control.
 - **GitLab**
 - **Mercurial**
 - **Subversion (SVN)**
+#### Git Commit Template
 
 ### Version Control Branching
 Branch management strategies.
@@ -522,6 +538,8 @@ Managing tasks and issues.
 - **Trello**
 - **Asana**
 - **Microsoft Project**
+#### Ticket Templates
+- **Girkin**
 
 ### Documentation
 Managing project documentation.
