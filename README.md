@@ -30,6 +30,7 @@ Provisioning cloud infrastructure declaratively.
 - **Microsoft Bicep**
 - **AWS CDK**
 #### Shared Terraform Library
+#### Configuration Drift Management
 
 ### Private Networks
 Establishing private network connections to Azure.
@@ -92,6 +93,17 @@ Automating the creation of machine images for cloud platforms to support immutab
 - **HashiCorp Nomad**
 - **Immutable Server Patterns**
 
+### Service Catalog Management
+Maintains a catalog of available services
+- **ServiceNow Service Catalog**
+- **AWS Service Catalog**
+
+### Infrastructure Discovery and Inventory
+Automates the discovery and inventory of existing infrastructure.
+- **HashiCorp Consul**
+- **Azure Resource Graph**
+- **AWS Config**
+
 ## Container & Application Management
 
 ### Orchestration
@@ -142,6 +154,11 @@ Securing and monitoring container network communications using eBPF-based soluti
 - **Calico**
 - **Weave Net**
 
+### Container Lifecycle Management
+- **Rancher**
+- **Portainer**
+- **Kubernetes Operators**
+
 ## Deployment & Release
 
 ### CI/CD
@@ -177,6 +194,12 @@ Gradually rolling out updates.
 Comparing versions in production.
 - **LaunchDarkly**
 - **Optimizely**
+
+### Release Orchestration
+Coordinates and automates the release process across multiple environments and teams.
+- **XL Release**
+- **Azure DevOps Release Pipelines**
+- **ElectricFlow**
 
 ### Release Management
 Deploying software versions reliably.
@@ -255,11 +278,17 @@ Testing system resilience by introducing failures.
 
 ## Security & Compliance
 
-### Security and Compliance
+### Vulnerabilities scanning
 Scanning for vulnerabilities and ensuring compliance.
 - **Snyk**
 - **Microsoft Defender Vulnerability Management**
 - **Qualys**
+
+### Business Continuity and Disaster Recovery
+Comprehensive readiness against catastrophic events.
+- **Azure Site Recovery**
+- **Zerto**
+- **Veeam**
 
 ### Identity and Access Management (IAM)
 Managing user authentication, authorization, and identity.
@@ -294,6 +323,18 @@ Automating compliance checks via code.
 - **Open Policy Agent**
 - **Chef InSpec**
 - **Terraform Compliance**
+
+### Compliance Reporting and Auditing
+Automates compliance reporting and auditing processes.
+- **Splunk Enterprise Security**
+- **Azure Policy**
+- **AWS Audit Manager**
+
+### Governance & Policy Management
+Ensures that organizational policies.
+- **HashiCorp Sentinel**
+- **Open Policy Agent (OPA)**
+- **Terraform Cloud Governance**
 
 ### VPN
 Managing VPN routing and firewall.
@@ -351,6 +392,11 @@ Service level monitoring and reporting.
 - **Service Documentation**
 - **PagerDuty**
 
+### Unified Dashboards and Reporting
+- **Grafana Loki**
+- **Datadog Dashboards**
+- **Kibana**
+
 ## Development Tools & Environment
 
 ### IDE
@@ -362,6 +408,9 @@ Integrated Development Environments.
 - **IntelliJ IDEA**
 - **JetBrains WebStorm**
 #### IDE Shared Config
+##### IDE share
+- **Visual Studio Live Share**
+#### Pair Programming
 
 ### Remote Development Environments
 Cloud-based development environments.
@@ -378,6 +427,7 @@ Managing development environments.
 - **Pipenv**
 - **Virtualenv**
 - **Conda**
+#### Environment Provisioning Templates
 
 ### Version Manager
 Managing multiple versions of languages and tools.
@@ -675,3 +725,8 @@ Translation and localization management.
 - **Tolgee**
 - **i18next**
 - **Transifex**
+
+## DataOps
+
+
+## MLOps
