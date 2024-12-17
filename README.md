@@ -1,90 +1,267 @@
 # Tools Overview
 
-## Cloud Platforms
+## Infrastructure & Platform
 
+### Cloud Platforms
 Public and Private Cloud Platforms.
-
 - **Azure**
 - **AWS**
 - **Google Cloud Platform**
 
-## Operating Systems
-
+### Operating Systems
 Server Operating Systems.
-
 - **Azure Virtual Machines**
 
-## Server Access
-
+### Server Access
 Secure remote access solutions for network access IE DB migrations?
-
 - **Azure Bastion**
 
-## Distributed Filesystems
-
+### Distributed Filesystems
 Networked Distributed Filesystems.
-
 - **Azure Files**
 - **GlusterFS**
 - **Ceph**
 
-## Infrastructure as Code (IaC)
-
+### Infrastructure as Code (IaC)
 Provisioning cloud infrastructure declaratively.
-
 - **Terraform**
 - **Pulumi**
 - **Azure Resource Manager**
 - **Microsoft Bicep**
+- **AWS CDK**
 
-## Orchestration
+### Private Networks
+Establishing private network connections to Azure.
+- **Azure ExpressRoute**
+- **AWS Direct Connect**
+- **Google Cloud Interconnect**
 
-Managing containerized applications across clusters.
+### Cost Management
+Monitoring and optimizing cloud costs.
+- **Azure Cost Management**
+- **AWS Cost Explorer**
+- **Google Cloud Cost Management**
 
-- **Kubernetes**
-- **Azure Kubernetes Service**
+### DNS Management
+Managing DNS records and domains.
+- **Azure DNS**
+- **Cloudflare DNS**
+- **Amazon Route 53**
 
-## Containerization
-
-Ensuring consistent environments for applications.
-
-- **Docker**
-- **Azure Container Instances**
-- ** [LXC](https://linuxcontainers.org/) **
-
-## CI/CD
-
-Automating build, test, and deploy workflows.
-
-- **GitHub Actions**
-- **Azure Pipelines**
-
-## Configuration Management
-
+### Configuration Management
 Automating system configurations and deployments.
-
 - **Ansible**
 - **Azure Automation**
 
-## Monitoring and Logging
+### Artifact Repository
+Managing build artifacts and dependencies.
+- **Azure Artifacts**
+- **JFrog Artifactory**
+- **Nexus Repository**
 
-Monitoring performance and setting up alerts.
+### Test Environment Spin-up
+Creating temporary test environments.
+- **Kubernetes**
+- **Docker Compose**
+- **Terraform**
+- **Azure SDK**
 
-- **Datadog**
-- **Azure Monitor**
+### Task Scheduling
+Automating and scheduling repetitive tasks.
+- **Azure Automation**
+- **Cron**
+- **Apache Airflow**
 
-## Security and Compliance
+### Task Automation
+Connecting and automating workflows across apps.
+- **Zapier**
+- **IFTTT**
+- **Microsoft Power Automate**
 
+### Collaborative Infrastructure
+Managing and deploying infrastructure as code.
+- **Env0**
+- **Terraform Cloud**
+- **Pulumi**
+- **AWS CDK**
+
+### Immutable Infrastructure Management
+Automating the creation of machine images for cloud platforms to support immutable deployments.
+- **Packer**
+- **HashiCorp Nomad**
+- **Immutable Server Patterns**
+
+## Container & Application Management
+
+### Orchestration
+Managing containerized applications across clusters.
+- **Kubernetes**
+- **Azure Kubernetes Service**
+
+### Containerization
+Ensuring consistent environments for applications.
+- **Docker**
+- **Azure Container Instances**
+- **[LXC](https://linuxcontainers.org/)**
+
+### Container Registry
+Managing container images.
+- **Azure Container Registry**
+- **Docker Hub**
+- **Google Container Registry**
+- **[Github Packages](https://docs.github.com/en/packages)**
+
+### Container Security
+Scanning container images for vulnerabilities, misconfigurations, and compliance issues before deployment.
+- **Trivy**
+- **Aqua Security**
+- **Anchore**
+
+### Service Discovery
+Managing service discovery and configuration.
+- **Azure Service Fabric**
+- **Consul**
+- **Eureka**
+
+### Service Mesh
+Managing microservices communication and security.
+- **Istio**
+- **Linkerd**
+- **Consul Connect**
+
+### Storage Orchestration
+Enabling Kubernetes-native storage orchestration and provisioning.
+- **Rook**
+- **StorageOS**
+- **Portworx**
+
+### Container Networking
+Securing and monitoring container network communications using eBPF-based solutions.
+- **Cilium**
+- **Calico**
+- **Weave Net**
+
+## Deployment & Release
+
+### CI/CD
+Automating build, test, and deploy workflows.
+- **GitHub Actions**
+- **Azure Pipelines**
+
+### CI/CD Pipelines
+Simplifying CI/CD pipelines by enabling developers to construct and test them locally.
+- **Dagger.io**
+- **Tekton**
+- **Buddy**
+
+### Pipeline Observability
+Monitoring and scaling CI pipelines for high-performance build and deployment workflows.
+- **Buildkite**
+- **CircleCI Insights**
+- **Datadog CI Visibility**
+
+### Blue-Green Deployments
+Switching traffic between environments.
+- **Azure App Service Slots**
+- **AWS Elastic Beanstalk**
+- **Heroku Pipelines**
+
+### Canary Releases
+Gradually rolling out updates.
+- **Spinnaker**
+- **Istio**
+- **LaunchDarkly**
+
+### A/B Testing
+Comparing versions in production.
+- **LaunchDarkly**
+- **Optimizely**
+
+### Release Management
+Deploying software versions reliably.
+- **Octopus Deploy**
+- **Jenkins X**
+- **GoCD**
+- **Harness**
+- **Flux CD**
+- **Spinnaker**
+
+### Feature Flagging
+Managing feature rollouts without redeploying code.
+- **LaunchDarkly**
+- **Split.io**
+- **Flagsmith**
+
+### GitOps
+Declarative, GitOps continuous delivery tool for Kubernetes, facilitating automated deployment of applications.
+- **Argo CD**
+- **Flux**
+- **GitLab CI/CD**
+- **Weave GitOps**
+
+## Testing & Quality
+
+### Frontend Testing
+Automated UI testing.
+- **Selenium**
+- **Cypress**
+- **Puppeteer**
+- **MS Playwright**
+
+### Backend Testing
+API endpoint validation.
+- **Postman**
+- **SoapUI**
+- **Insomnia**
+
+### Performance Testing (Load, Stress, Volume)
+Assessing application performance under load.
+- **JMeter**
+- **Locust**
+- **Gatling**
+- **k6**
+
+### Unit Testing
+Testing individual components for correctness.
+- **Pytest**
+- **JUnit**
+- **Mocha**
+- **xUnit**
+
+### Integration Testing
+Testing component interactions.
+- **Azure Test SDK**
+- **TestRail**
+- **Postman**
+
+### Regression Testing
+Ensuring existing functionality remains intact.
+- **Selenium**
+- **TestCafe**
+- **Ranorex**
+
+### UI Component Testing
+Developing and testing UI components in isolation.
+- **Storybook**
+- **Bit**
+- **Styleguidist**
+
+### Chaos Engineering
+Testing system resilience by introducing failures.
+- **Chaos Monkey**
+- **Gremlin**
+- **Litmus**
+
+## Security & Compliance
+
+### Security and Compliance
 Scanning for vulnerabilities and ensuring compliance.
-
 - **Snyk**
 - **Microsoft Defender Vulnerability Management**
 - **Qualys**
 
-## Identity and Access Management (IAM)
-
+### Identity and Access Management (IAM)
 Managing user authentication, authorization, and identity.
-
 - **AWS Cognito**
 - **Azure AD B2C**
 - **Auth0**
@@ -92,687 +269,391 @@ Managing user authentication, authorization, and identity.
 - **Keycloak**
 - **OneLogin**
 
-## Multi-Factor Authentication (MFA)
-
+### Multi-Factor Authentication (MFA)
 Securing access with multiple authentication factors.
-
 - **Azure AD MFA**
 - **Duo Security**
 - **Google Authenticator**
 - **Okta Verify**
 
-## Messaging
+### Secret Management
+Securely managing sensitive information.
+- **Azure Key Vault**
+- **HashiCorp Vault**
+- **AWS Secrets Manager**
 
-Team communication and collaboration.
+### Data Encryption
+Encrypting data in transit and at rest.
+- **TLS/SSL Azure App Service**
+- **Let's Encrypt**
+- **HashiCorp Vault**
 
+### Compliance as Code
+Automating compliance checks via code.
+- **Open Policy Agent**
+- **Chef InSpec**
+- **Terraform Compliance**
+
+### VPN
+Managing VPN routing and firewall.
+- **OpenVPN**
+- **WireGuard**
+- **Cisco AnyConnect**
+
+## Monitoring & Observability
+
+### Monitoring and Logging
+Platform and application monitoring.
+- **Azure Monitor**
+- **Datadog**
+- **New Relic**
+- **Prometheus**
+- **Grafana**
+
+### APM (Application Performance Monitoring)
+End-to-end application performance monitoring.
+- **Azure Application Insights**
+- **Dynatrace**
+- **AppDynamics**
+- **Elastic APM**
+
+### Database Observability
+Monitoring database performance and health.
+- **Azure Database Insights**
+- **SolarWinds Database Performance Analyzer**
+- **Datadog Database Monitoring**
+- **Percona Monitoring and Management (PMM)**
+- **Datadog Database Monitoring**
+- **New Relic Database Explorer**
+
+### Distributed Tracing
+Tracking requests across microservices.
+- **Jaeger**
+- **Zipkin**
+- **Azure Application Insights**
+- **OpenTelemetry**
+
+### Log Aggregation
+Centralizing and analyzing logs.
+- **Azure Log Analytics**
+- **ELK Stack**
+- **Splunk**
+- **Graylog**
+- **Grafana Loki**
+- **Fluentd**
+
+### SLA/RPO/RTO
+Service level monitoring and reporting.
+- **Azure Service Health**
+- **StatusPage**
+- **Better Uptime**
+- **Service Documentation**
+- **PagerDuty**
+
+## Development Tools & Environment
+
+### IDE
+Integrated Development Environments.
+- **Visual Studio Code**
+- **JetBrains Suite**
+- **Visual Studio**
+- **Eclipse**
+- **IntelliJ IDEA**
+- **JetBrains WebStorm**
+
+### Remote Development Environments
+Cloud-based development environments.
+- **GitHub Codespaces**
+- **GitPod**
+- **Cloud9**
+- **AWS Cloud9**
+
+### Environment Management
+Managing development environments.
+- **Docker**
+- **Vagrant**
+- **Azure Dev Box**
+- **Pipenv**
+- **Virtualenv**
+- **Conda**
+
+### Version Manager
+Managing multiple versions of languages and tools.
+- **nvm**
+- **pyenv**
+- **sdkman**
+- **asdf**
+- **[uv](https://github.com/astral-sh/uv)**
+
+### Build Tools
+Compiling and building applications.
+- **Maven**
+- **Gradle**
+- **npm**
+- **webpack**
+
+### AI Code Completion
+AI-powered coding assistance.
+- **GitHub Copilot**
+- **Amazon CodeWhisperer**
+- **Tabnine**
+- **Kite**
+
+### Code Documentation
+Documenting code and APIs.
+- **Swagger/OpenAPI**
+- **JSDoc**
+- **Sphinx**
+- **Doxygen**
+- **Heredoc**
+- **asyncdocs**
+
+### API Documentation
+Managing API documentation.
+- **Postman**
+- **Swagger UI**
+- **ReadMe**
+- **Stoplight**
+- **Redoc**
+- **API Blueprint**
+
+## Code Quality & Review
+
+### Code Review
+Code review platforms and tools.
+- **GitHub Pull Requests**
+- **Azure DevOps Pull Requests**
+- **Gerrit**
+- **GitLab Merge Requests**
+- **Bitbucket**
+
+### Linting
+Code style and error checking.
+- **ESLint**
+- **Pylint**
+- **SonarLint**
+- **StyleCop**
+- **Rubocop**
+
+### Security Checks
+Code security scanning.
+- **SonarQube**
+- **Checkmarx**
+- **Fortify**
+- **Snyk**
+- **Dependabot**
+
+### Code Review Automation
+Automated code review tools.
+- **Codecov**
+- **CodeClimate**
+- **DeepSource**
+- **DeepCode**
+- **Codacy**
+- **Reviewdog**
+
+### Code Analysis
+Static and dynamic code analysis.
+- **SonarQube**
+- **Coverity**
+- **CodeQL**
+- **PMD**
+
+### License Management
+Managing software licenses.
+- **WhiteSource**
+- **Black Duck**
+- **FOSSA**
+- **Sourcetrail**
+
+## Version Control & Collaboration
+
+### Version Control
+Source code version control.
+- **Git**
+- **Azure Repos**
+- **GitHub**
+- **GitLab**
+- **Mercurial**
+- **Subversion (SVN)**
+
+### Version Control Branching
+Branch management strategies.
+- **GitFlow**
+- **Trunk Based Development**
+- **GitHub Flow**
+- **Rebase**
+
+### Versioning
+Managing software versions.
+- **Semantic Versioning**
+- **Calendar Versioning**
+- **GitVersion**
+- **CalVer**
+- **UUIDs**
+
+### API Versioning
+Managing API versions.
+- **Azure API Management**
+- **Swagger/OpenAPI**
+- **URI Versioning**
+- **GraphQL**
+
+## Communication & Project Management
+
+### Messaging
+Team communication platforms.
 - **Microsoft Teams**
 - **Slack**
 - **Discord**
 
-## ChatOps
-
-Integrating DevOps workflows into chat.
-
+### ChatOps
+Chat-based operations tools.
+- **Hubot**
+- **Slack Workflows**
 - **Microsoft Teams Bots**
-- **Slack Bots**
-- **Mattermost Integrations**
 
-## Issue Tracking
-
-Project management and issue tracking.
-
+### Issue Tracking
+Managing tasks and issues.
+- **Azure Boards**
 - **Jira**
+- **GitHub Issues**
+- **Linear**
 - **Trello**
 - **Asana**
 - **Microsoft Project**
 
-## Documentation
-
-Managing project documentation and knowledge bases.
-
+### Documentation
+Managing project documentation.
 - **Confluence**
 - **Notion**
 - **MkDocs**
-- **Microsoft Sharepoint**
+- **Microsoft SharePoint**
+- **Sourcetrail**
 
-## Artifact Repository
+### Incident Management
+Handling operational incidents.
+- **PagerDuty**
+- **VictorOps**
+- **Opsgenie**
 
-Managing build artifacts and dependencies.
+### Incident Retrospective Tools
+Post-incident analysis tools.
+- **Blameless**
+- **FireHydrant**
+- **Jeli**
+- **Post-Mortem by Loom**
+- **RTIR**
 
-- **Azure Artifacts**
-- **JFrog Artifactory**
-- **Nexus Repository**
+### Change Management
+Managing system changes.
+- **ServiceNow**
+- **Jira Service Management**
+- **Azure DevOps**
+- **ChangeGear**
 
-## Frontend Testing
+### Diagram Tools
+Creating technical diagrams.
+- **Draw.io**
+- **Lucidchart**
+- **Mermaid**
+- **PlantUML**
+- **Microsoft Visio**
+- **Lucid**
+- **Microsoft Visio**
 
-Automated UI testing.
+## API & Traffic Management
 
-- **Selenium**
-- **Cypress**
-- **Puppeteer**
-- **MS Playwright**
-
-## Backend Testing
-
-API endpoint validation.
-
-- **Postman**
-- **SoapUI**
-- **Insomnia**
-
-## Performance Testing
-
-Assessing application performance under load.
-
-- **JMeter**
-- **Locust**
-- **Gatling**
-- **k6**
-
-## Unit Testing
-
-Testing individual components for correctness.
-
-- **Pytest**
-- **JUnit**
-- **Mocha**
-- **xUnit**
-
-## Integration Testing
-
-Testing component interactions.
-
-- **Azure Test SDK**
-- **TestRail**
-- **Postman**
-
-## Regression Testing
-
-Ensuring existing functionality remains intact.
-
-- **Selenium**
-- **TestCafe**
-- **Ranorex**
-
-## UI Component Testing
-
-Developing and testing UI components in isolation.
-
-- **Storybook**
-- **Bit**
-- **Styleguidist**
-
-## Cost Management
-
-Monitoring and optimizing cloud costs.
-
-- **Azure Cost Management**
-- **AWS Cost Explorer**
-- **Google Cloud Cost Management**
-
-## DNS Management
-
-Managing DNS records and domains.
-
-- **Azure DNS**
-- **Cloudflare DNS**
-- **Amazon Route 53**
-
-## Private Networks
-
-Establishing private network connections to Azure.
-
-- **Azure ExpressRoute**
-- **AWS Direct Connect**
-- **Google Cloud Interconnect**
-
-## Load Balancing
-
-Layer 4 load balancing (TCP/UDP).
-
+### Load Balancing
+Layer 4 load balancing.
 - **Azure Load Balancer**
 - **HAProxy**
 - **Nginx**
 - **Traefik**
 
-## Application Gateway
-
-Layer 7 load balancing (HTTP/HTTPS).
-
+### Application Gateway
+Layer 7 load balancing.
 - **Azure App Gateway**
 - **AWS Elastic Load Balancing**
 - **Google Cloud Load Balancing**
 
-## API Gateways
-
-Managing API endpoints and rate limiting.
-
+### API Gateways
+Managing API endpoints.
 - **Azure API Management**
 - **Kong**
 - **API Gateway (AWS)**
 
-## Database Migration
+### Proxy Management
+Managing reverse proxies.
+- **Nginx**
+- **Envoy**
+- **Traefik**
+- **Apache Traffic Server**
 
-Version control for database schemas.
+### CDN
+Content delivery networks.
+- **Azure CDN**
+- **Cloudflare**
+- **Akamai**
+- **Fastly**
+- **Amazon CloudFront**
 
+## Database & Data Management
+
+### Database Migration
+Version control for databases.
 - **Flyway**
 - **Liquibase**
 - **Alembic**
 
-## Backup and Recovery
+### Search and Indexing
+Search engine solutions.
+- **Elasticsearch**
+- **Azure Cognitive Search**
+- **Algolia**
+- **Solr**
 
-Data backup and recovery strategies.
+### Cache
+Caching solutions.
+- **Redis**
+- **Memcached**
+- **Azure Cache for Redis**
+- **[ValKey](https://valkey.io/)**
+- **Varnish Cache**
 
+### Backup and Recovery
+Data backup solutions.
 - **Azure Backup**
 - **Veeam**
 - **Commvault**
 
-## Container Registry
+## Integration & Messaging
 
-Managing container images.
-
-- **Azure Container Registry**
-- **Docker Hub**
-- **Google Container Registry**
-- **[Github Packages](https://docs.github.com/en/packages)**
-
-## Secret Management
-
-Securely managing sensitive information.
-
-- **Azure Key Vault**
-- **HashiCorp Vault**
-- **AWS Secrets Manager**
-
-## Incident Management
-
-Handling operational incidents and outages.
-
-- **PagerDuty**
-- **VictorOps**
-- **Opsgenie**
-
-## Code Documentation
-
-Maintaining codebase documentation.
-
-- **Heredoc**
-- **OpenAPI**
-- **Doxygen**
-- **asyncdocs**
-
-## Version Control Branching
-
-Managing feature branches and releases.
-
-- **Rebase**
-- **Git Flow**
-- **Trunk-Based Development**
-
-## Versioning
-
-Standardizing version numbers for compatibility.
-
-- **Semantic Versioning**
-- **CalVer**
-- **UUIDs**
-
-## API Versioning
-
-Managing API versions for backward compatibility.
-
-- **Swagger (OpenAPI)**
-- **API Gateway**
-- **GraphQL**
-
-## Test Environment Spin-up
-
-Creating temporary test environments.
-
-- **Kubernetes**
-- **Docker Compose**
-- **Terraform**
-
-## Environment Management
-
-Maintaining dev/stage/prod environments.
-
-- **Pipenv**
-- **Virtualenv**
-- **Conda**
-
-## Version Manager
-
-Handling multiple runtime versions.
-
-- **asdf**
-- **nvm**
-- **pyenv**
-- **[uv](https://github.com/astral-sh/uv)**
-
-## Code Review
-
-Ensuring code quality through peer reviews.
-
-- **GitHub**
-- **GitLab**
-- **Bitbucket**
-
-## Linting
-
-Automated code style and error checks.
-
-- **Pylint**
-- **ESLint**
-- **Rubocop**
-
-## Testing
-
-Ensuring tests pass before merging.
-
-- **Smoke Tests**
-- **Unit Tests**
-- **Integration Tests**
-
-## Security Checks
-
-Identifying vulnerabilities before deployment.
-
-- **Snyk**
-- **Dependabot**
-- **SonarQube**
-
-## Code Review Automation
-
-Automating the code review process.
-
-- **DeepCode**
-- **Codacy**
-- **Reviewdog**
-
-## Code Analysis
-
-Analyzing code maintainability and complexity.
-
-- **CodeClimate**
-- **SonarQube**
-- **PMD**
-
-## Blue-Green Deployments
-
-Switching traffic between environments.
-
-- **Azure App Service Slots**
-- **AWS Elastic Beanstalk**
-- **Heroku Pipelines**
-
-## Canary Releases
-
-Gradually rolling out updates.
-
-- **Spinnaker**
-- **Istio**
-- **LaunchDarkly**
-
-## A/B Testing
-
-Comparing versions in production.
-
-- **LaunchDarkly**
-- **Optimizely**
-
-## Chaos Engineering
-
-Testing system resilience by introducing failures.
-
-- **Chaos Monkey**
-- **Gremlin**
-- **Litmus**
-
-## GitOps
-
-Managing deployments using Git as the source of truth.
-
-- **Argo CD**
-- **Flux**
-- **GitLab CI/CD**
-
-## IDE
-
-Consistent development environment configurations.
-
-- **VSCode**
-- **IntelliJ IDEA**
-- **JetBrains WebStorm**
-
-## BI and Analytics
-
-Creating data visualizations and dashboards.
-
-- **Tableau**
-- **Power BI**
-- **Looker**
-
-## Feature Flagging
-
-Managing feature rollouts without redeploying code.
-
-- **LaunchDarkly**
-- **Split.io**
-- **Flagsmith**
-
-## API Documentation
-
-Generating interactive API docs from OpenAPI specs.
-
-- **Swagger UI**
-- **Redoc**
-- **API Blueprint**
-
-## Task Scheduling
-
-Automating and scheduling repetitive tasks.
-
-- **Azure Automation**
-- **Cron**
-- **Apache Airflow**
-
-## Version Control
-
-Tracking source code changes and collaboration.
-
-- **Git**
-- **Mercurial**
-- **Subversion (SVN)**
-
-## Search and Indexing
-
-Distributed search and analytics.
-
-- **Elasticsearch**
-- **Solr**
-- **Algolia**
-
-## CDN
-
-Delivering content securely and quickly with caching.
-
-- **Cloudflare**
-- **Akamai**
-- **Amazon CloudFront**
-
-## Service Discovery
-
-Managing service discovery and configuration.
-
-- **Azure Service Fabric**
-- **Consul**
-- **Eureka**
-
-## Cache
-
-In-memory data caching and session management.
-
-- **Redis**
-- **[ValKey](https://valkey.io/)**
-- **Memcached**
-- **Varnish Cache**
-
-## Service Mesh
-
-Managing microservices communication and security.
-
-- **Istio**
-- **Linkerd**
-- **Consul Connect**
-
-## APM
-
-End-to-end application and infrastructure monitoring.
-
-- **Azure Monitor**
-- **New Relic**
-- **Datadog APM**
-
-## Task Automation
-
-Connecting and automating workflows across apps.
-
-- **Zapier**
-- **IFTTT**
-- **Microsoft Power Automate**
-
-## License Management
-
-Managing open-source licenses and compliance.
-
-- **FOSSA**
-- **WhiteSource**
-- **Sourcetrail**
-
-## Release Management
-
-Deploying software versions reliably.
-
-- **Octopus Deploy**
-- **Jenkins X**
-- **GoCD**
-
-## Change Management
-
-Controlling infrastructure changes to minimize risks.
-
-- **Jira Service Management**
-- **ServiceNow**
-- **ChangeGear**
-- **Microsoft Project**
-
-## Localization
-
-Supporting multiple languages and regional settings.
-
-- **i18next**
-- **Phrase**
-- **Transifex**
-
-## Data Encryption
-
-Encrypting data in transit and at rest.
-
-- **TLS/SSL Azure App Service**
-- **Let's Encrypt**
-- **HashiCorp Vault**
-
-## Proxy Management
-
-Handling client requests and optimizing performance.
-
-- **NGINX**
-- **HAProxy**
-- **Apache Traffic Server**
-
-## Compliance as Code
-
-Automating compliance checks via code.
-
-- **Open Policy Agent**
-- **Chef InSpec**
-- **Terraform Compliance**
-
-## SLA/RPO/RTO
-
-Defining service level and recovery objectives.
-
-- **Service Documentation**
-- **Statuspage**
-- **PagerDuty**
-
-## Distributed Messaging
-
-Facilitating app communication.
-
+### Distributed Messaging
+Message queues and event streaming.
 - **Azure Service Bus**
+- **RabbitMQ**
+- **Apache Kafka**
+- **Redis Pub/Sub**
 - **Event Grid**
 - **Event Hubs**
 
-## VPN
+## Analytics & Business Intelligence
 
-Managing VPN routing and firewall.
+### BI and Analytics
+Business intelligence tools.
+- **Power BI**
+- **Tableau**
+- **Looker**
+- **Metabase**
 
-- **OpenVPN**
-- **WireGuard**
-- **Cisco AnyConnect**
+## Internationalization
 
-## Build Tools
-
-Automating package creation and deployment.
-
-- **npm**
-- **Maven**
-- **Gradle**
-
-## Diagram Tools
-
-Creating documentation diagrams.
-
-- **Lucid**
-- **Draw.io**
-- **Microsoft Visio**
-
-## Collaborative Infrastructure
-
-Managing and deploying infrastructure as code.
-
-- **Env0**
-- **Terraform Cloud**
-- **Pulumi**
-
-## AI Code Completion
-
-AI-assisted code suggestions.
-
-- **Copilot**
-- **TabNine**
-- **Kite**
-
-## Michael Additions
-
-### Container Security
-
-Scanning container images for vulnerabilities, misconfigurations, and compliance issues before deployment.
-
-- **Trivy**
-- **Aqua Security**
-- **Anchore**
-
-### Pipeline Observability
-
-Monitoring and scaling CI pipelines for high-performance build and deployment workflows.
-
-- **Buildkite**
-- **CircleCI Insights**
-- **Datadog CI Visibility**
-
-### Immutable Infrastructure Management
-
-Automating the creation of machine images for cloud platforms to support immutable deployments.
-
-- **Packer**
-- **HashiCorp Nomad**
-- **Immutable Server Patterns**
-
-### Database Observability
-
-Observing and troubleshooting performance issues in databases.
-
-- **Percona Monitoring and Management (PMM)**
-- **Datadog Database Monitoring**
-- **New Relic Database Explorer**
-
-### Storage Orchestration
-
-Enabling Kubernetes-native storage orchestration and provisioning.
-
-- **Rook**
-- **StorageOS**
-- **Portworx**
-
-### Distributed Tracing
-
-Tracking the flow of requests across distributed services to identify latency bottlenecks and improve observability.
-
-- **Jaeger**
-- **OpenTelemetry**
-- **Zipkin**
-
-### Release Management
-
-Automating deployments with advanced strategies.
-
-- **Harness**
-- **Flux CD**
-- **Spinnaker**
-
-### Container Networking
-
-Securing and monitoring container network communications using eBPF-based solutions.
-
-- **Cilium**
-- **Calico**
-- **Weave Net**
-
-### Incident Retrospective Tools
-
-Facilitating post-mortem analysis and incident retrospectives with a focus on continuous improvement.
-
-- **Blameless**
-- **Post-Mortem by Loom**
-- **RTIR**
-
-### Remote Development Environments
-
-Providing cloud-based development environments to ensure consistency and reduce onboarding times.
-
-- **Gitpod**
-- **GitHub Codespaces**
-- **AWS Cloud9**
-
-### CI/CD Pipelines
-
-Simplifying CI/CD pipelines by enabling developers to construct and test them locally.
-
-- **Dagger.io**
-- **Tekton**
-- **Buddy**
-
-### GitOps
-
-Declarative, GitOps continuous delivery tool for Kubernetes, facilitating automated deployment of applications.
-
-- **Argo CD**
-- **Flux**
-- **Weave GitOps**
-
-### Infrastructure as Code (IaC)
-
-Allows infrastructure as code using familiar programming languages, enhancing developer productivity and collaboration.
-
-- **Pulumi**
-- **Terraform**
-- **AWS CDK**
-
-### Service Mesh
-
-Manages microservices communication, security, and monitoring within Kubernetes clusters.
-
-- **Istio**
-- **Linkerd**
-- **Consul Connect**
-
-### Log Aggregation
-
-Efficient and scalable log aggregation, complementing Grafana's monitoring capabilities.
-
-- **Grafana Loki**
-- **ELK Stack (Elasticsearch, Logstash, Kibana)**
-- **Fluentd**
+### Localization
+Translation and localization management.
+- **Lokalise**
+- **Crowdin**
+- **Phrase**
+- **Tolgee**
+- **i18next**
+- **Transifex**
