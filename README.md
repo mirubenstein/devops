@@ -104,6 +104,13 @@ Automates the discovery and inventory of existing infrastructure.
 - **Azure Resource Graph**
 - **AWS Config**
 
+### Edge Computing
+Deploying applications closer to data sources to reduce latency and improve performance.
+- **Azure Stack Edge**
+- **AWS Outposts**
+- **Google Anthos**
+- **Cloudflare Workers**
+
 ## Container & Application Management
 
 ### Orchestration
@@ -342,6 +349,20 @@ Managing VPN routing and firewall.
 - **WireGuard**
 - **Cisco AnyConnect**
 
+### Cloud Security Posture Management
+Managing and improving the security posture across cloud environments by identifying and mitigating vulnerabilities, ensuring compliance, and maintaining a secure infrastructure.
+- **Wiz**
+- **Orca Security**
+- **Lacework**
+- **Prisma Cloud**
+
+### API Security
+Testing and monitoring API security to protect APIs from threats.
+- **Salt Security**
+- **42Crunch**
+- **Noname Security**
+- **Akamai API Security**
+
 ## Monitoring & Observability
 
 ### Monitoring and Logging
@@ -468,6 +489,13 @@ Managing API documentation.
 - **Stoplight**
 - **Redoc**
 - **API Blueprint**
+
+### Developer Productivity Analytics
+Improving developer productivity by understanding workflow efficiencies, identifying bottlenecks, and enhancing overall development performance.
+- **LinearB**
+- **Waydev**
+- **GitPrime**
+- **Code Climate Velocity**
 
 ## Code Quality & Review
 
@@ -728,5 +756,45 @@ Translation and localization management.
 
 ## DataOps
 
+### Data Pipeline Orchestration
+Managing and automating data workflows to coordinate complex data processing tasks, ensuring data is reliably collected, transformed, and delivered to the right destinations.
+- **Apache Airflow**
+- **Dagster**
+- **Prefect**
+- **dbt (data build tool)**
+
+### Data Quality Management
+Validating, cleansing, and monitoring data to maintain its integrity and reliability.
+- **Great Expectations**
+- **Apache Griffin**
+- **Soda Core**
+- **Monte Carlo**
+
+### Data Version Control
+Version control systems designed for data and machine learning models.
+- **DVC (Data Version Control)**
+- **LakeFS**
+- **Pachyderm**
 
 ## MLOps
+
+### Model Training & Experimentation
+Facilitate the management of machine learning experiments, track performance metrics, and streamline the training process for developing robust models.
+- **MLflow**
+- **Weights & Biases**
+- **Kubeflow**
+- **Amazon SageMaker**
+
+### Model Serving
+Platforms for deploying and serving machine learning models in production, ensuring that models are accessible, scalable, and can handle real-time inference requests.
+- **TensorFlow Serving**
+- **Seldon Core**
+- **BentoML**
+- **Cortex**
+
+### Model Monitoring
+Tools for tracking machine learning model performance, detecting drift, and ensuring models continue to deliver accurate predictions over time.
+- **Evidently AI**
+- **WhyLabs**
+- **Arize AI**
+- **Neptune.ai**
