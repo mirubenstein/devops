@@ -776,6 +776,13 @@ Version control systems designed for data and machine learning models.
 - **LakeFS**
 - **Pachyderm**
 
+### Data Governance
+Managing data policies, quality, and compliance to ensure data integrity and security across all systems.
+- **Data Governance Tools**
+  - **Collibra**
+  - **Talend Data Governance**
+  - **Alation**
+
 ## MLOps
 
 ### Model Training & Experimentation
