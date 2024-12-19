@@ -273,6 +273,7 @@ Testing individual components for correctness.
 - **Pytest**
 - **JUnit**
 - **Mocha**
+#### >= 80% coverage
 
 ### Integration Testing
 Testing component interactions.
