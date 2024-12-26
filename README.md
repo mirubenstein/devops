@@ -527,6 +527,7 @@ Code review platforms and tools.
 - **GitLab Merge Requests**
 - **Bitbucket**
 #### Git Review Template
+#### Branch protection
 
 ### Linting
 Code style and error checking.
