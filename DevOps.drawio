@@ -26,25 +26,25 @@
           <mxGeometry x="250" y="680" width="64" height="69" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-12" value="&lt;div&gt;Code Build&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="590" y="350" width="80" height="30" as="geometry" />
+          <mxGeometry x="685" y="340" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-13" value="&lt;div&gt;Code Deploy&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="760" y="580" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-15" value="Code Commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="451" y="348" width="100" height="30" as="geometry" />
+          <mxGeometry x="480" y="380" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-16" value="&lt;div&gt;Ticket Template -&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Project configuration -&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="80" y="420" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-17" value="&lt;div&gt;Unit Test&lt;/div&gt;&lt;div&gt;Lint&lt;/div&gt;&lt;div&gt; Software Composition Analysis (SCA)&lt;/div&gt;&lt;div&gt;Static Application Security Testing (SAST)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="505" y="400" width="250" height="70" as="geometry" />
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-17" value="&lt;div&gt;Unit Test&lt;/div&gt;&lt;div&gt;Test Coverage&lt;br&gt;&lt;/div&gt;&lt;div&gt;Lint&lt;/div&gt;&lt;div&gt; Software Composition Analysis (SCA)&lt;/div&gt;&lt;div&gt;Static Application Security Testing (SAST)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="380" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-18" value="&lt;div&gt;Teams&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.microsoft_teams;" vertex="1" parent="1">
-          <mxGeometry x="613" y="528" width="34" height="34" as="geometry" />
+          <mxGeometry x="708" y="518" width="34" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-19" value="Alert Pass/Failures to developer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="527" y="482" width="190" height="30" as="geometry" />
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-19" value="&lt;div&gt;Feedback to developer&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pass/Failures &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="642" y="467" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-21" value="Dynamic Application Security Testing (DAST)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="631" y="628" width="260" height="30" as="geometry" />
@@ -65,7 +65,16 @@
           <mxGeometry x="930" y="870" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-27" value="Commit Template" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="441" y="398" width="120" height="30" as="geometry" />
+          <mxGeometry x="470" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-28" value="&lt;div&gt;Regression&lt;/div&gt;&lt;div&gt;System&lt;/div&gt;&lt;div&gt;Front-end&lt;/div&gt;&lt;div&gt;API&lt;/div&gt;&lt;div&gt;Performance&lt;/div&gt;&lt;div&gt;Testing&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1056" y="653" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-29" value="Pull request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="102" y="560" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-30" value="&lt;div&gt;PR template&lt;/div&gt;&lt;div&gt;Auto review by AI&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="88" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
