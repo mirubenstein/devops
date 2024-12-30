@@ -1,80 +1,161 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0" version="25.0.3">
   <diagram name="Page-1" id="HFFRkxdLWE5YDhGh8fER">
-    <mxGraphModel dx="441" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
+    <mxGraphModel dx="1732" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EDXHS6EJhSH5jY5PzywB-1" value="&lt;div&gt;Dev&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.user;" vertex="1" parent="1">
-          <mxGeometry x="254" y="330" width="60" height="60" as="geometry" />
+          <mxGeometry x="35" y="320" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-2" value="&lt;div&gt;Product&amp;nbsp;&lt;/div&gt;&lt;div&gt;Owner&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.user;" vertex="1" parent="1">
-          <mxGeometry x="30" y="330" width="60" height="60" as="geometry" />
+          <mxGeometry x="38" y="112" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-3" value="Ticket System" style="image;html=1;image=img/lib/atlassian/Jira_Logo.svg;" vertex="1" parent="1">
-          <mxGeometry x="120" y="318" width="72" height="72" as="geometry" />
+          <mxGeometry x="128" y="100" width="72" height="72" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-4" value="Git Repo" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" vertex="1" parent="1">
-          <mxGeometry x="380" y="330" width="50" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-8" value="&lt;div&gt;Kubernetes&lt;/div&gt;&lt;div&gt;Services&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Kubernetes_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="140" y="684.5" width="68" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-9" value="&lt;div&gt;Container&lt;/div&gt;&lt;div&gt;Registries&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Container_Registries.svg;" vertex="1" parent="1">
-          <mxGeometry x="362" y="680" width="68" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-10" value="&lt;div&gt;Container&lt;/div&gt;&lt;div&gt;Instances&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/containers/Container_Instances.svg;" vertex="1" parent="1">
-          <mxGeometry x="250" y="680" width="64" height="69" as="geometry" />
+          <mxGeometry x="161" y="320" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-12" value="&lt;div&gt;Code Build&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="685" y="340" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-13" value="&lt;div&gt;Code Deploy&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="760" y="580" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-15" value="Code Commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="480" y="380" width="100" height="30" as="geometry" />
+          <mxGeometry x="466" y="330" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-16" value="&lt;div&gt;Ticket Template -&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Project configuration -&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="80" y="420" width="150" height="60" as="geometry" />
+          <mxGeometry x="98" y="210" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-17" value="&lt;div&gt;Unit Test&lt;/div&gt;&lt;div&gt;Test Coverage&lt;br&gt;&lt;/div&gt;&lt;div&gt;Lint&lt;/div&gt;&lt;div&gt; Software Composition Analysis (SCA)&lt;/div&gt;&lt;div&gt;Static Application Security Testing (SAST)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="600" y="380" width="250" height="90" as="geometry" />
+          <mxGeometry x="381" y="370" width="250" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-18" value="&lt;div&gt;Teams&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.microsoft_teams;" vertex="1" parent="1">
-          <mxGeometry x="708" y="518" width="34" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-19" value="&lt;div&gt;Feedback to developer&lt;br&gt;&lt;/div&gt;&lt;div&gt;Pass/Failures &lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="642" y="467" width="150" height="40" as="geometry" />
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-18" value="Feedback to developer only" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.microsoft_teams;" vertex="1" parent="1">
+          <mxGeometry x="489" y="460" width="34" height="34" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-21" value="Dynamic Application Security Testing (DAST)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="631" y="628" width="260" height="30" as="geometry" />
+          <mxGeometry x="630" y="610" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-22" value="&lt;div&gt;Git Branch Methodology -&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Versioning -&amp;gt;&lt;/div&gt;&lt;div&gt;Template -&amp;gt;&lt;/div&gt;&lt;div&gt;IDE Config -&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="413" width="170" height="100" as="geometry" />
+          <mxGeometry x="101" y="403" width="170" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-23" value="&lt;div&gt;DEV Env&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="580" width="120" height="60" as="geometry" />
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-23" value="&lt;div&gt;DEV Env -&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-24" value="&lt;div&gt;QA Env&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="684.5" width="120" height="60" as="geometry" />
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-24" value="&lt;div&gt;Stage&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="949.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-25" value="&lt;div&gt;UAT Env&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="790" width="120" height="60" as="geometry" />
+          <mxGeometry x="730" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-26" value="&lt;div&gt;PROD Env&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="870" width="120" height="60" as="geometry" />
+          <mxGeometry x="730" y="1520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-27" value="Commit Template" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="470" y="420" width="120" height="30" as="geometry" />
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-27" value="Commit Template -&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="246" y="410" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EDXHS6EJhSH5jY5PzywB-28" value="&lt;div&gt;Regression&lt;/div&gt;&lt;div&gt;System&lt;/div&gt;&lt;div&gt;Front-end&lt;/div&gt;&lt;div&gt;API&lt;/div&gt;&lt;div&gt;Performance&lt;/div&gt;&lt;div&gt;Testing&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1056" y="653" width="90" height="100" as="geometry" />
+          <mxGeometry x="850" y="1097.5" width="90" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-29" value="Pull request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="102" y="560" width="90" height="30" as="geometry" />
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-31" value="Push to feature branch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="330" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EDXHS6EJhSH5jY5PzywB-30" value="&lt;div&gt;PR template&lt;/div&gt;&lt;div&gt;Auto review by AI&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="88" y="590" width="120" height="60" as="geometry" />
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-32" value="&lt;div&gt;Dev&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.user;" vertex="1" parent="1">
+          <mxGeometry x="35" y="530" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-34" value="Git Repo" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" vertex="1" parent="1">
+          <mxGeometry x="150" y="530" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-35" value="Manual step&lt;br&gt;&lt;div&gt;Code Build&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="535" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-36" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Unit Test&lt;/div&gt;&lt;div&gt;Test Coverage&lt;br&gt;&lt;/div&gt;&lt;div&gt;Lint&lt;/div&gt;&lt;div&gt; Software Composition Analysis (SCA)&lt;/div&gt;&lt;div&gt;Static Application Security Testing (SAST)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="555.5" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-37" value="&lt;div&gt;Feedback on fail to developer&lt;/div&gt;&lt;div&gt;Feedback to team if success&lt;br&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.microsoft_teams;" vertex="1" parent="1">
+          <mxGeometry x="313" y="650.5" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-39" value="&lt;div&gt;Package Artifacts&lt;/div&gt;&lt;div&gt;Publish Artifacts&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="730" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-55" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="20" y="920" as="sourcePoint" />
+            <mxPoint x="400" y="920" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-59" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint y="1310" as="sourcePoint" />
+            <mxPoint x="380" y="1310" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-60" value="&lt;div&gt;gate&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EDXHS6EJhSH5jY5PzywB-59">
+          <mxGeometry x="0.55" y="-1" relative="1" as="geometry">
+            <mxPoint x="-194" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-65" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint y="280" as="sourcePoint" />
+            <mxPoint x="730" y="280" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-66" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint y="520.5" as="sourcePoint" />
+            <mxPoint x="730" y="520.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-67" value="Code deploy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="540" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-68" value="Container security scan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="778" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-69" value="&lt;div&gt;IAC&lt;/div&gt;&lt;div&gt;Terraform&lt;/div&gt;&lt;div&gt;Ansible&lt;/div&gt;&lt;div&gt;Secret Managment&lt;br&gt;&lt;/div&gt;&lt;div&gt;DB Migrations&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="565.5" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-70" value="&lt;div&gt;Logging&lt;/div&gt;&lt;div&gt;Monitoring&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="841" y="523" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-71" value="&lt;div&gt;PR Review template -&amp;gt;&lt;/div&gt;&lt;div&gt;PR AI tool -&amp;gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1075" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-76" value="&lt;div&gt;Test Env -&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1129.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-77" value="&lt;div&gt;Dev&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.user;" vertex="1" parent="1">
+          <mxGeometry x="15" y="949.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-78" value="Git Repo" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" vertex="1" parent="1">
+          <mxGeometry x="130" y="949.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-79" value="&lt;div&gt;On approval and merge into main&lt;/div&gt;&lt;div&gt;Auto Code Build&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="954.5" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-80" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Unit Test&lt;/div&gt;&lt;div&gt;Test Coverage&lt;br&gt;&lt;/div&gt;&lt;div&gt;Lint&lt;/div&gt;&lt;div&gt; Software Composition Analysis (SCA)&lt;/div&gt;&lt;div&gt;Static Application Security Testing (SAST)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="975" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-81" value="&lt;div&gt;Feedback on fail to developer&lt;/div&gt;&lt;div&gt;Feedback to dev team if success&lt;/div&gt;&lt;div&gt;Feedback to test team is success &lt;br&gt;&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#DF8C42;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.microsoft_teams;" vertex="1" parent="1">
+          <mxGeometry x="293" y="1070" width="34" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-82" value="&lt;div&gt;Package Artifacts&lt;/div&gt;&lt;div&gt;Publish Artifacts&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1157.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-84" value="Code deploy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="959.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-85" value="Container security scan" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1197.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-86" value="&lt;div&gt;IAC&lt;/div&gt;&lt;div&gt;Terraform&lt;/div&gt;&lt;div&gt;Ansible&lt;/div&gt;&lt;div&gt;Secret Managment&lt;br&gt;&lt;/div&gt;&lt;div&gt;DB Migrations&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="435" y="985" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-87" value="&lt;span&gt;ITSM (IT Service Management)&lt;/span&gt;Change managment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-7" y="1318" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EDXHS6EJhSH5jY5PzywB-88" value="Artifact repository for pulling down libraries for builds?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="336" y="178" width="310" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
