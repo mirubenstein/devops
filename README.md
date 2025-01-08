@@ -3,66 +3,90 @@
 ## Infrastructure & Platform
 
 ### Cloud Platforms
+
 Public and Private Cloud Platforms.
+
 - **Azure**
 - **AWS**
 - **Google Cloud Platform**
 
 ### Operating Systems
+
 Server Operating Systems.
+
 - **Azure Virtual Machines**
 
 ### Server Access
+
 Secure remote access solutions for network access IE DB migrations?
+
 - **Azure Bastion**
 
 ### Distributed Filesystems
+
 Networked Distributed Filesystems.
+
 - **Azure Files**
 - **GlusterFS**
 - **Ceph**
 
 ### Infrastructure as Code (IaC)
+
 Provisioning cloud infrastructure declaratively.
+
 - **Azure Resource Manager**
 - **Microsoft Bicep**
 - **Terraform**
 - **Pulumi**
 - **AWS CDK**
+
 #### Shared Terraform Library
+
 #### Configuration Drift Management
 
 ### Private Networks
+
 Establishing private network connections to Azure.
+
 - **Azure ExpressRoute**
 - **AWS Direct Connect**
 - **Google Cloud Interconnect**
 
 ### Cost Management
+
 Monitoring and optimizing cloud costs.
+
 - **Azure Cost Management**
 - **AWS Cost Explorer**
 - **Google Cloud Cost Management**
 
 ### DNS Management
+
 Managing DNS records and domains.
+
 - **Azure DNS**
 - **Cloudflare DNS**
 - **Amazon Route 53**
 
 ### Configuration Management
+
 Automating system configurations and deployments.
+
 - **Azure Automation**
 - **Ansible**
 
 ### Artifact Repository
+
 Managing build artifacts and dependencies.
+
 - **Azure Artifacts**
 - **JFrog Artifactory**
 - **Nexus Repository**
 
 ### Test Environment Spin-up
+
 Creating temporary test environments.
+
 - **Azure DevTest Labs**
 - **Azure SDK**
 - **Kubernetes**
@@ -70,19 +94,25 @@ Creating temporary test environments.
 - **Terraform**
 
 ### Task Scheduling
+
 Automating and scheduling repetitive tasks.
+
 - **Azure Automation**
 - **Cron**
 - **Apache Airflow**
 
 ### Task Automation
+
 Connecting and automating workflows across apps.
+
 - **Microsoft Power Automate**
 - **Zapier**
 - **IFTTT**
 
 ### Collaborative Infrastructure
+
 Managing and deploying infrastructure as code.
+
 - **Azure DevOps**
 - **Env0**
 - **Terraform Cloud**
@@ -90,25 +120,33 @@ Managing and deploying infrastructure as code.
 - **AWS CDK**
 
 ### Immutable Infrastructure Management
+
 Automating the creation of machine images for cloud platforms to support immutable deployments.
+
 - **Packer**
 - **HashiCorp Nomad**
 - **Immutable Server Patterns**
 
 ### Service Catalog Management
+
 Maintains a catalog of available services
+
 - **Azure Marketplace**
 - **ServiceNow Service Catalog**
 - **AWS Service Catalog**
 
 ### Infrastructure Discovery and Inventory
+
 Automates the discovery and inventory of existing infrastructure.
+
 - **Azure Resource Graph**
 - **HashiCorp Consul**
 - **AWS Config**
 
 ### Edge Computing
+
 Deploying applications closer to data sources to reduce latency and improve performance.
+
 - **Azure Stack Edge**
 - **AWS Outposts**
 - **Google Anthos**
@@ -117,57 +155,74 @@ Deploying applications closer to data sources to reduce latency and improve perf
 ## Container & Application Management
 
 ### Orchestration
+
 Managing containerized applications across clusters.
+
 - **Azure Kubernetes Service**
 - **Kubernetes**
 
 ### Containerization
+
 Ensuring consistent environments for applications.
+
 - **Azure Container Instances**
 - **Docker**
 - **[LXC](https://linuxcontainers.org/)**
 
 ### Container Registry
+
 Managing container images.
+
 - **Azure Container Registry**
 - **Docker Hub**
 - **Google Container Registry**
 - **[Github Packages](https://docs.github.com/en/packages)**
 
 ### Container Security
+
 Scanning container images for vulnerabilities, misconfigurations, and compliance issues before deployment.
+
 - **Microsoft Defender for Containers**
 - **Trivy**
 - **Aqua Security**
 - **Anchore**
 
 ### Service Discovery
+
 Managing service discovery and configuration.
+
 - **Azure Service Fabric**
 - **Consul**
 - **Eureka**
 
 ### Service Mesh
+
 Managing microservices communication and security.
+
 - **Azure Service Fabric**
 - **Istio**
 - **Linkerd**
 - **Consul Connect**
 
 ### Storage Orchestration
+
 Enabling Kubernetes-native storage orchestration and provisioning.
+
 - **Rook**
 - **StorageOS**
 - **Portworx**
 
 ### Container Networking
+
 Securing and monitoring container network communications using eBPF-based solutions.
+
 - **Azure CNI**
 - **Cilium**
 - **Calico**
 - **Weave Net**
 
 ### Container Lifecycle Management
+
 - **Azure Kubernetes Service**
 - **Rancher**
 - **Portainer**
@@ -176,50 +231,66 @@ Securing and monitoring container network communications using eBPF-based soluti
 ## Deployment & Release
 
 ### CI/CD
+
 Automating build, test, and deploy workflows.
+
 - **Azure Pipelines**
 - **GitHub Actions**
 
 ### CI/CD Pipelines
+
 Simplifying CI/CD pipelines by enabling developers to construct and test them locally.
+
 - **Azure DevOps Pipelines**
 - **Dagger.io**
 - **Tekton**
 - **Buddy**
 
 ### Pipeline Observability
+
 Monitoring and scaling CI pipelines for high-performance build and deployment workflows.
+
 - **Azure DevOps Analytics**
 - **Buildkite**
 - **CircleCI Insights**
 - **Datadog CI Visibility**
 
 ### Blue-Green Deployments
+
 Switching traffic between environments.
+
 - **Azure App Service Slots**
 - **AWS Elastic Beanstalk**
 - **Heroku Pipelines**
 
 ### Canary Releases
+
 Gradually rolling out updates.
+
 - **Spinnaker**
 - **Istio**
 - **LaunchDarkly**
 
 ### A/B Testing
+
 Comparing versions in production.
+
 - **Azure Application Insights**
 - **LaunchDarkly**
 - **Optimizely**
 
 ### Release Orchestration
+
 Coordinates and automates the release process across multiple environments and teams.
+
 - **Azure DevOps Release Pipelines**
 - **XL Release**
 - **ElectricFlow**
 
 ### Release Management
+
 Deploying software versions reliably.
+
 - **Azure DevOps Release Pipelines**
 - **Octopus Deploy**
 - **Jenkins X**
@@ -229,14 +300,18 @@ Deploying software versions reliably.
 - **Spinnaker**
 
 ### Feature Flagging
+
 Managing feature rollouts without redeploying code.
+
 - **Azure App Configuration**
 - **LaunchDarkly**
 - **Split.io**
 - **Flagsmith**
 
 ### GitOps
+
 Declarative, GitOps continuous delivery tool for Kubernetes, facilitating automated deployment of applications.
+
 - **Argo CD**
 - **Flux**
 - **GitLab CI/CD**
@@ -245,21 +320,27 @@ Declarative, GitOps continuous delivery tool for Kubernetes, facilitating automa
 ## Testing & Quality
 
 ### Frontend Testing
+
 Automated UI testing.
+
 - **Microsoft Playwright**
 - **Selenium**
 - **Cypress**
 - **Puppeteer**
 
 ### Backend Testing
+
 API endpoint validation.
+
 - **Azure Test Plans**
 - **Postman**
 - **SoapUI**
 - **Insomnia**
 
 ### Performance Testing (Load, Stress, Volume)
+
 Assessing application performance under load.
+
 - **Azure Load Testing**
 - **JMeter**
 - **Locust**
@@ -267,28 +348,37 @@ Assessing application performance under load.
 - **k6**
 
 ### Unit Testing
+
 Testing individual components for correctness.
+
 - **Microsoft xUnit**
 - **Microsoft MSTest**
 - **Pytest**
 - **JUnit**
 - **Mocha**
-#### >= 80% coverage
+
+#### >= 70% coverage
 
 ### Integration Testing
+
 Testing component interactions.
+
 - **Azure Test SDK**
 - **TestRail**
 - **Postman**
 
 ### UI Component Testing
+
 Developing and testing UI components in isolation.
+
 - **Storybook**
 - **Bit**
 - **Styleguidist**
 
 ### Chaos Engineering
+
 Testing system resilience by introducing failures.
+
 - **Azure Chaos Studio**
 - **Chaos Monkey**
 - **Gremlin**
@@ -297,19 +387,25 @@ Testing system resilience by introducing failures.
 ## Security & Compliance
 
 ### Vulnerabilities scanning
+
 Scanning for vulnerabilities and ensuring compliance.
+
 - **Microsoft Defender Vulnerability Management**
 - **Snyk**
 - **Qualys**
 
 ### Business Continuity and Disaster Recovery
+
 Comprehensive readiness against catastrophic events.
+
 - **Azure Site Recovery**
 - **Zerto**
 - **Veeam**
 
 ### Identity and Access Management (IAM)
+
 Managing user authentication, authorization, and identity.
+
 - **Azure AD B2C**
 - **AWS Cognito**
 - **Auth0**
@@ -318,53 +414,69 @@ Managing user authentication, authorization, and identity.
 - **OneLogin**
 
 ### Multi-Factor Authentication (MFA)
+
 Securing access with multiple authentication factors.
+
 - **Azure AD MFA**
 - **Duo Security**
 - **Google Authenticator**
 - **Okta Verify**
 
 ### Secret Management
+
 Securely managing sensitive information.
+
 - **Azure Key Vault**
 - **HashiCorp Vault**
 - **AWS Secrets Manager**
 
 ### Data Encryption
+
 Encrypting data in transit and at rest.
+
 - **TLS/SSL Azure App Service**
 - **Let's Encrypt**
 - **HashiCorp Vault**
 
 ### Compliance as Code
+
 Automating compliance checks via code.
+
 - **Azure Policy**
 - **Open Policy Agent**
 - **Chef InSpec**
 - **Terraform Compliance**
 
 ### Compliance Reporting and Auditing
+
 Automates compliance reporting and auditing processes.
+
 - **Azure Policy**
 - **Splunk Enterprise Security**
 - **AWS Audit Manager**
 
 ### Governance & Policy Management
+
 Ensures that organizational policies.
+
 - **Azure Policy**
 - **HashiCorp Sentinel**
 - **Open Policy Agent (OPA)**
 - **Terraform Cloud Governance**
 
 ### VPN
+
 Managing VPN routing and firewall.
+
 - **Azure VPN Gateway**
 - **OpenVPN**
 - **WireGuard**
 - **Cisco AnyConnect**
 
 ### Cloud Security Posture Management
+
 Managing and improving the security posture across cloud environments by identifying and mitigating vulnerabilities, ensuring compliance, and maintaining a secure infrastructure.
+
 - **Microsoft Defender for Cloud**
 - **Wiz**
 - **Orca Security**
@@ -372,7 +484,9 @@ Managing and improving the security posture across cloud environments by identif
 - **Prisma Cloud**
 
 ### API Security
+
 Testing and monitoring API security to protect APIs from threats.
+
 - **Azure API Management**
 - **Salt Security**
 - **42Crunch**
@@ -382,7 +496,9 @@ Testing and monitoring API security to protect APIs from threats.
 ## Monitoring & Observability
 
 ### Monitoring and Logging
+
 Platform and application monitoring.
+
 - **Azure Monitor**
 - **Datadog**
 - **New Relic**
@@ -390,14 +506,18 @@ Platform and application monitoring.
 - **Grafana**
 
 ### APM (Application Performance Monitoring)
+
 End-to-end application performance monitoring.
+
 - **Azure Application Insights**
 - **Dynatrace**
 - **AppDynamics**
 - **Elastic APM**
 
 ### Database Observability
+
 Monitoring database performance and health.
+
 - **Azure Database Insights**
 - **SolarWinds Database Performance Analyzer**
 - **Datadog Database Monitoring**
@@ -406,14 +526,18 @@ Monitoring database performance and health.
 - **New Relic Database Explorer**
 
 ### Distributed Tracing
+
 Tracking requests across microservices.
+
 - **Azure Application Insights**
 - **Jaeger**
 - **Zipkin**
 - **OpenTelemetry**
 
 ### Log Aggregation
+
 Centralizing and analyzing logs.
+
 - **Azure Log Analytics**
 - **ELK Stack**
 - **Splunk**
@@ -422,7 +546,9 @@ Centralizing and analyzing logs.
 - **Fluentd**
 
 ### SLA/RPO/RTO
+
 Service level monitoring and reporting.
+
 - **Azure Service Health**
 - **StatusPage**
 - **Better Uptime**
@@ -430,6 +556,7 @@ Service level monitoring and reporting.
 - **PagerDuty**
 
 ### Unified Dashboards and Reporting
+
 - **Azure Dashboards**
 - **Grafana Loki**
 - **Datadog Dashboards**
@@ -438,36 +565,49 @@ Service level monitoring and reporting.
 ## Development Tools & Environment
 
 ### IDE
+
 Integrated Development Environments.
+
 - **Microsoft Visual Studio Code**
 - **JetBrains Suite**
 - **Eclipse**
 - **IntelliJ IDEA**
 - **JetBrains WebStorm**
+
 #### IDE Shared Config
+
 ##### IDE share
+
 - **Microsoft Visual Studio Live Share**
+
 #### Pair Programming
 
 ### Remote Development Environments
+
 Cloud-based development environments.
+
 - **Microsoft GitHub Codespaces**
 - **GitPod**
 - **Cloud9**
 - **AWS Cloud9**
 
 ### Environment Management
+
 Managing development environments.
+
 - **Azure Dev Box**
 - **Docker**
 - **Vagrant**
 - **Pipenv**
 - **Virtualenv**
 - **Conda**
+
 #### Environment Provisioning Templates
 
 ### Version Manager
+
 Managing multiple versions of languages and tools.
+
 - **nvm**
 - **pyenv**
 - **sdkman**
@@ -475,7 +615,9 @@ Managing multiple versions of languages and tools.
 - **[uv](https://github.com/astral-sh/uv)**
 
 ### Build Tools
+
 Compiling and building applications.
+
 - **Microsoft MSBuild**
 - **Maven**
 - **Gradle**
@@ -483,14 +625,18 @@ Compiling and building applications.
 - **webpack**
 
 ### AI Code Completion
+
 AI-powered coding assistance.
+
 - **Microsoft GitHub Copilot**
 - **Amazon CodeWhisperer**
 - **Tabnine**
 - **Kite**
 
 ### Code Documentation
+
 Documenting code and APIs.
+
 - **Microsoft DocFX**
 - **Swagger/OpenAPI**
 - **JSDoc**
@@ -500,7 +646,9 @@ Documenting code and APIs.
 - **asyncdocs**
 
 ### API Documentation
+
 Managing API documentation.
+
 - **Azure API Management**
 - **Postman**
 - **Swagger UI**
@@ -510,7 +658,9 @@ Managing API documentation.
 - **API Blueprint**
 
 ### Developer Productivity Analytics
+
 Improving developer productivity by understanding workflow efficiencies, identifying bottlenecks, and enhancing overall development performance.
+
 - **Microsoft GitHub Insights**
 - **LinearB**
 - **Waydev**
@@ -520,17 +670,23 @@ Improving developer productivity by understanding workflow efficiencies, identif
 ## Code Quality & Review
 
 ### Code Review
+
 Code review platforms and tools.
+
 - **Azure DevOps Pull Requests**
 - **Microsoft GitHub Pull Requests**
 - **Gerrit**
 - **GitLab Merge Requests**
 - **Bitbucket**
+
 #### Git Review Template
+
 #### Branch protection
 
 ### Linting
+
 Code style and error checking.
+
 - **Microsoft StyleCop**
 - **ESLint**
 - **Pylint**
@@ -538,7 +694,9 @@ Code style and error checking.
 - **Rubocop**
 
 ### Security Checks
+
 Code security scanning.
+
 - **Microsoft Defender for Cloud**
 - **SonarQube**
 - **Checkmarx**
@@ -547,7 +705,9 @@ Code security scanning.
 - **Dependabot**
 
 ### Code Review Automation
+
 Automated code review tools.
+
 - **Microsoft GitHub Actions**
 - **Codecov**
 - **CodeClimate**
@@ -557,20 +717,25 @@ Automated code review tools.
 - **Reviewdog**
 
 ### Code Analysis
+
 Static and dynamic code analysis.
+
 - **Microsoft CodeQL**
 - **SonarQube**
 - **Coverity**
 - **PMD**
 
 ### License Management
+
 Managing software licenses.
+
 - **WhiteSource**
 - **Black Duck**
 - **FOSSA**
 - **Sourcetrail**
 
 ### Shared Libraries
+
 - **Core libraries and utilities**
 - **Design systems and UI components**
 - **Configuration and standards**
@@ -585,23 +750,30 @@ Managing software licenses.
 ## Version Control & Collaboration
 
 ### Version Control
+
 Source code version control.
+
 - **Azure Repos**
 - **Microsoft GitHub**
 - **GitLab**
 - **Mercurial**
 - **Subversion (SVN)**
+
 #### Git Commit Template
 
 ### Version Control Branching
+
 Branch management strategies.
+
 - **GitHub Flow**
 - **GitFlow**
 - **Trunk Based Development**
 - **Rebase**
 
 ### Versioning
+
 Managing software versions.
+
 - **Semantic Versioning**
 - **Calendar Versioning**
 - **GitVersion**
@@ -609,7 +781,9 @@ Managing software versions.
 - **UUIDs**
 
 ### API Versioning
+
 Managing API versions.
+
 - **Azure API Management**
 - **Swagger/OpenAPI**
 - **URI Versioning**
@@ -618,19 +792,25 @@ Managing API versions.
 ## Communication & Project Management
 
 ### Messaging
+
 Team communication platforms.
+
 - **Microsoft Teams**
 - **Slack**
 - **Discord**
 
 ### ChatOps
+
 Chat-based operations tools.
+
 - **Microsoft Teams Bots**
 - **Hubot**
 - **Slack Workflows**
 
 ### Issue Tracking
+
 Managing tasks and issues.
+
 - **Azure Boards**
 - **Microsoft GitHub Issues**
 - **Microsoft Project**
@@ -640,10 +820,13 @@ Managing tasks and issues.
 - **Asana**
 
 #### Ticket Templates
+
 - **Girkin**
 
 ### Documentation
+
 Managing project documentation.
+
 - **Microsoft SharePoint**
 - **Confluence**
 - **Notion**
@@ -651,13 +834,17 @@ Managing project documentation.
 - **Sourcetrail**
 
 ### Incident Management
+
 Handling operational incidents.
+
 - **PagerDuty**
 - **VictorOps**
 - **Opsgenie**
 
 ### Incident Retrospective Tools
+
 Post-incident analysis tools.
+
 - **Blameless**
 - **FireHydrant**
 - **Jeli**
@@ -665,14 +852,18 @@ Post-incident analysis tools.
 - **RTIR**
 
 ### Change Management
+
 Managing system changes.
+
 - **Azure DevOps**
 - **ServiceNow**
 - **Jira Service Management**
 - **ChangeGear**
 
 ### Diagram Tools
+
 Creating technical diagrams.
+
 - **Microsoft Visio**
 - **Draw.io**
 - **Lucidchart**
@@ -682,26 +873,34 @@ Creating technical diagrams.
 ## API & Traffic Management
 
 ### Load Balancing
+
 Layer 4 load balancing.
+
 - **Azure Load Balancer**
 - **HAProxy**
 - **Nginx**
 - **Traefik**
 
 ### Application Gateway
+
 Layer 7 load balancing.
+
 - **Azure App Gateway**
 - **AWS Elastic Load Balancing**
 - **Google Cloud Load Balancing**
 
 ### API Gateways
+
 Managing API endpoints.
+
 - **Azure API Management**
 - **Kong**
 - **API Gateway (AWS)**
 
 ### Proxy Management
+
 Managing reverse proxies.
+
 - **Azure Front Door**
 - **Nginx**
 - **Envoy**
@@ -709,7 +908,9 @@ Managing reverse proxies.
 - **Apache Traffic Server**
 
 ### CDN
+
 Content delivery networks.
+
 - **Azure CDN**
 - **Cloudflare**
 - **Akamai**
@@ -719,21 +920,27 @@ Content delivery networks.
 ## Database & Data Management
 
 ### Database Migration
+
 Version control for databases.
+
 - **Azure Database Migration Service**
 - **Flyway**
 - **Liquibase**
 - **Alembic**
 
 ### Search and Indexing
+
 Search engine solutions.
+
 - **Azure Cognitive Search**
 - **Elasticsearch**
 - **Algolia**
 - **Solr**
 
 ### Cache
+
 Caching solutions.
+
 - **Azure Cache for Redis**
 - **Redis**
 - **Memcached**
@@ -741,7 +948,9 @@ Caching solutions.
 - **Varnish Cache**
 
 ### Backup and Recovery
+
 Data backup solutions.
+
 - **Azure Backup**
 - **Veeam**
 - **Commvault**
@@ -749,7 +958,9 @@ Data backup solutions.
 ## Integration & Messaging
 
 ### Distributed Messaging
+
 Message queues and event streaming.
+
 - **Azure Service Bus**
 - **Azure Event Grid**
 - **Azure Event Hubs**
@@ -760,7 +971,9 @@ Message queues and event streaming.
 ## Analytics & Business Intelligence
 
 ### BI and Analytics
+
 Business intelligence tools.
+
 - **Microsoft Power BI**
 - **Tableau**
 - **Looker**
@@ -769,7 +982,9 @@ Business intelligence tools.
 ## Internationalization
 
 ### Localization
+
 Translation and localization management.
+
 - **Microsoft Translator**
 - **Lokalise**
 - **Crowdin**
@@ -781,14 +996,18 @@ Translation and localization management.
 ## DataOps
 
 ### Data Pipeline Orchestration
+
 Managing and automating data workflows to coordinate complex data processing tasks, ensuring data is reliably collected, transformed, and delivered to the right destinations.
+
 - **Azure Data Factory**
 - **Apache Airflow**
 - **Dagster**
 - **Prefect**
 
 ### Data Quality Management
+
 Validating, cleansing, and monitoring data to maintain its integrity and reliability.
+
 - **Azure Purview**
 - **Great Expectations**
 - **Apache Griffin**
@@ -796,13 +1015,17 @@ Validating, cleansing, and monitoring data to maintain its integrity and reliabi
 - **Monte Carlo**
 
 ### Data Version Control
+
 Version control systems designed for data and machine learning models.
+
 - **DVC (Data Version Control)**
 - **LakeFS**
 - **Pachyderm**
 
 ### Data Governance
+
 Managing data policies, quality, and compliance to ensure data integrity and security across all systems.
+
 - **Azure Purview**
 - **Collibra**
 - **Talend Data Governance**
@@ -811,7 +1034,9 @@ Managing data policies, quality, and compliance to ensure data integrity and sec
 ## MLOps
 
 ### Model Training & Experimentation
+
 Facilitate the management of machine learning experiments, track performance metrics, and streamline the training process for developing robust models.
+
 - **Azure Machine Learning**
 - **MLflow**
 - **Weights & Biases**
@@ -819,7 +1044,9 @@ Facilitate the management of machine learning experiments, track performance met
 - **Amazon SageMaker**
 
 ### Model Serving
+
 Platforms for deploying and serving machine learning models in production, ensuring that models are accessible, scalable, and can handle real-time inference requests.
+
 - **Azure Machine Learning**
 - **TensorFlow Serving**
 - **Seldon Core**
@@ -827,7 +1054,9 @@ Platforms for deploying and serving machine learning models in production, ensur
 - **Cortex**
 
 ### Model Monitoring
+
 Tools for tracking machine learning model performance, detecting drift, and ensuring models continue to deliver accurate predictions over time.
+
 - **Azure Machine Learning Model Monitoring**
 - **Evidently AI**
 - **WhyLabs**
