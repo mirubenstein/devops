@@ -328,7 +328,7 @@ Automated UI testing.
 - **Cypress**
 - **Puppeteer**
 
-### Backend Testing
+### Backend/API Testing
 
 API endpoint validation.
 
@@ -463,6 +463,8 @@ Ensures that organizational policies.
 - **HashiCorp Sentinel**
 - **Open Policy Agent (OPA)**
 - **Terraform Cloud Governance**
+
+### Policy As Code
 
 ### VPN
 
@@ -919,7 +921,7 @@ Content delivery networks.
 
 ## Database & Data Management
 
-### Database Migration
+### Database Automation
 
 Version control for databases.
 
