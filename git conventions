@@ -1,0 +1,6 @@
+Git branching methodology/automation - example gitflow
+Git commit methodology/automation with commit linting - example commitlint
+Versioning methodology/automation - example semantic-release
+Changelog methodology/automation - example semantic-release
+
+Is there a tool that can do all of this for a visual studio project that uses bitbucket?
