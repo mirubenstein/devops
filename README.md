@@ -2,6 +2,10 @@
 
 ## Infrastructure & Platform
 
+### Hybrid & Multi-Cloud Management
+#### Cloud Management Platforms (CMP)
+#### Hybrid Cloud Gateways
+
 ### Cloud Platforms
 
 Public and Private Cloud Platforms.
@@ -15,6 +19,19 @@ Public and Private Cloud Platforms.
 Server Operating Systems.
 
 - **Azure Virtual Machines**
+
+### Virtualization & Hypervisors
+VMware vSphere / ESXi
+KVM / QEMU
+Hyper-V
+
+#### Serverless Computing
+Event-driven, serverless execution environments.
+
+- **Azure Functions**
+- **AWS Lambda**
+- **Google Cloud Functions**
+- **IBM Cloud Functions**
 
 ### Server Access
 
@@ -74,6 +91,8 @@ Automating system configurations and deployments.
 
 - **Azure Automation**
 - **Ansible**
+chef
+saltstack
 
 ### Artifact Repository
 
@@ -94,6 +113,9 @@ Creating temporary test environments.
 - **Terraform**
 
 ### Task Scheduling
+UiPath
+Automation Anywhere
+Blue Prism
 
 Automating and scheduling repetitive tasks.
 
@@ -279,25 +301,13 @@ Comparing versions in production.
 - **LaunchDarkly**
 - **Optimizely**
 
-### Release Orchestration
+### Release Orchestration/Management
 
 Coordinates and automates the release process across multiple environments and teams.
 
 - **Azure DevOps Release Pipelines**
 - **XL Release**
 - **ElectricFlow**
-
-### Release Management
-
-Deploying software versions reliably.
-
-- **Azure DevOps Release Pipelines**
-- **Octopus Deploy**
-- **Jenkins X**
-- **GoCD**
-- **Harness**
-- **Flux CD**
-- **Spinnaker**
 
 ### Feature Flagging
 
@@ -394,6 +404,14 @@ Scanning for vulnerabilities and ensuring compliance.
 - **Snyk**
 - **Qualys**
 
+### Security Testing & Penetration Tools
+Tools for manual and automated security assessments.
+
+- **Burp Suite**
+- **OWASP ZAP**
+- **Nmap**
+- **Metasploit**
+
 ### Business Continuity and Disaster Recovery
 
 Comprehensive readiness against catastrophic events.
@@ -438,33 +456,16 @@ Encrypting data in transit and at rest.
 - **Let's Encrypt**
 - **HashiCorp Vault**
 
-### Compliance as Code
+### Compliance, Governance & Policy as Code
 
 Automating compliance checks via code.
+Automates compliance reporting and auditing processes.
+Ensures that organizational policies.
 
 - **Azure Policy**
 - **Open Policy Agent**
 - **Chef InSpec**
 - **Terraform Compliance**
-
-### Compliance Reporting and Auditing
-
-Automates compliance reporting and auditing processes.
-
-- **Azure Policy**
-- **Splunk Enterprise Security**
-- **AWS Audit Manager**
-
-### Governance & Policy Management
-
-Ensures that organizational policies.
-
-- **Azure Policy**
-- **HashiCorp Sentinel**
-- **Open Policy Agent (OPA)**
-- **Terraform Cloud Governance**
-
-### Policy As Code
 
 ### VPN
 
@@ -546,6 +547,7 @@ Centralizing and analyzing logs.
 - **Graylog**
 - **Grafana Loki**
 - **Fluentd**
+OpenTelemetry
 
 ### SLA/RPO/RTO
 
@@ -578,11 +580,13 @@ Integrated Development Environments.
 
 #### IDE Shared Config
 
-##### IDE share
+### Developer Collaboration Tools
+
+#### IDE share
 
 - **Microsoft Visual Studio Live Share**
 
-#### Pair Programming
+#### Pair Programming mob programming etc
 
 ### Remote Development Environments
 
@@ -637,10 +641,9 @@ AI-powered coding assistance.
 
 ### Code Documentation
 
-Documenting code and APIs.
+Documenting code
 
 - **Microsoft DocFX**
-- **Swagger/OpenAPI**
 - **JSDoc**
 - **Sphinx**
 - **Doxygen**
@@ -899,6 +902,8 @@ Managing API endpoints.
 - **Kong**
 - **API Gateway (AWS)**
 
+### GraphQL Gateway/Management (e.g., Apollo, Hasura) in addition to REST-based solutions.
+
 ### Proxy Management
 
 Managing reverse proxies.
@@ -980,6 +985,14 @@ Business intelligence tools.
 - **Tableau**
 - **Looker**
 - **Metabase**
+
+#### Data Visualization Tools
+Libraries and tools for creating interactive visualizations.
+
+- **Plotly**
+- **D3.js**
+- **Apache Superset**
+- **Grafana**
 
 ## Internationalization
 
@@ -1064,3 +1077,6 @@ Tools for tracking machine learning model performance, detecting drift, and ensu
 - **WhyLabs**
 - **Arize AI**
 - **Neptune.ai**
+
+
+### Experiment Tracking Tools: such as Comet.ml, Polyaxon
