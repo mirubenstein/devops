@@ -1,0 +1,45 @@
+
+---
+
+### **Infrastructure & Tooling**
+1. **Datalake Implementation**: Replace manual DB queries with centralized data access
+2. **Containerization**: Standardize environments using Docker/Kubernetes
+3. **Self-Service Sandbox Environments**: Enable testing without production constraints
+4. **Hardware/Software Upgrades**: Address performance issues and streamline approvals
+5. **VPN Optimization**: Resolve instability and reduce switching overhead
+6. **Third-Party Tool Management**: Centralize integrations and document quirks
+
+### **Process & Workflow**
+7. **Ticketing System**: Migrate ad-hoc requests to Jira/Linear with prioritization
+8. **Agile/Scrum Implementation**: Introduce sprints, retrospectives, and clear roles
+9. **Approval Workflows**: Standardize processes for software/hardware requests
+10. **Documentation Consolidation**: Single source of truth (e.g., Confluence)
+11. **Requirements Management**: Template for consistent, testable specs
+12. **Tech Debt Tracking**: Visible backlog with dedicated sprint allocation
+
+### **Code Quality & Engineering Practices**
+13. **Testing Framework**: Unit/system tests integrated into CI/CD
+14. **Automated Code Standards**: Enforcement via linters (Prettier, ESLint)
+15. **Code Cleanup**: Remove dead code; improve logging/tracing
+16. **Incremental Refactoring**: Small, low-risk improvements
+17. **Desilo Codebases**: Standardize setup to share ownership
+18. **Security Automation**: Scans (SAST/DAST) in pipelines
+
+### **Collaboration & Culture**
+19. **Meeting Hygiene**: Agendas, timekeeping, action items
+20. **Developer Playbooks**: Standardized guides for common tasks
+21. **Focus Time**: Async communication blocks (e.g., "no meetings" periods)
+22. **Cross-Team Demos**: Share work and reduce duplication
+23. **Feedback Loops**: Regular retrospectives with follow-ups
+
+### **Developer Experience (DevEx)**
+24. **Skill Development**: Training on containers, CI/CD, modern frameworks
+25. **Onboarding Revamp**: Mentorship + environment setup automation
+26. **Tooling Catalog**: Pre-approved software with quick access
+
+---
+
+Access Request Automation: Self-service for low-risk permissions
+Add READMEs in all repos with setup information
+IDE Standardization: Shared configs (e.g., VS Code settings sync)
+Bus Factor: Identify single points of knowledge failure
